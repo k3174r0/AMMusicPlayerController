@@ -75,6 +75,7 @@ public class AMMusicPlayerController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
+        self.overrideUserInterfaceStyle = .light
         modalPresentationCapturesStatusBarAppearance = true
 
         tableViewDelegate.tableView = tableView
